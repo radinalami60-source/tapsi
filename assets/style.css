@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Estedad:wght@100..900&family=Vazirmatn:wght@100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    direction: rtl;
+}
+
+header{
+    position: fixed;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(248,248,248);
+    margin: 0rem 0rem;
+    height: 3rem;
+    padding: 0.5rem;
+    width: 92.9rem;
+}
+
+.menu li{
+    align-items: none;
+    list-style: none;
+}
+
+.navbar{
+    text-decoration: none;
+    color: black;
+}
+
+.menu ul{
+    display: flex;
+    margin-left: 8rem;
+    gap: 1rem;
+}
+
+#border{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(208,68,24);
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    border-radius: 20px;
+    margin-top: 2rem;
+    
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.menu img{
+    margin-left: 30rem;
+}
+
+.gif{
+    width: 92.9rem;
+}
+
+.two{
+    display: flex;
+    background-color: rgb(253,253,253);
+}
+
+.two img{
+    height: 30rem;
+    width: 50rem;
+    border-radius: 2rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.two h1{
+    display: block;
+}
+
+.one{
+    display: block;
+    margin-top: 10rem;
+    margin-right: 10rem;
+    margin-left: 4rem;
+}
+
+#doc{
+    font-family: Vzirmatn;
+    padding: 1rem;
+    color: white;
+    background-color: black;
+    border-radius: 1rem;
+}
+
+#click{
+    color: black;
+    background-color: white;
+    border: 3px solid black;
+    padding: 1rem;
+    margin-right: 2rem;
+    border-radius: 1rem;
+}
+
+#ui-ux{
+    margin-right: 5rem;
+}
+
+.cenar{
+    display: flex;
+    width: 7rem;
+    height: 7rem;
+    justify-content: center;
+    margin-right: 35rem;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.zirnevis{
+    display: flex;
+    margin-right: 12.9rem;
+    gap: 6rem;
+
+}
+
+.air{
+    display: flex;
+    margin-top: 6rem;
+    margin-left: 2rem;
+}
+
+.air img{
+    height: 20rem;
+    width: 35rem;
+}
+
+.oi-op{
+    display: block;
+    margin-right: 100rem;
+}
+
+.tlefon{
+    display: flex;
+    margin-top: 5rem;
+}
+
+.tlefon img{
+    height: 20rem;
+    width: 30rem;
+}
+
+.tamas{
+    display: block;
+    margin-right: 10rem;
+    margin-left: 20rem;
+}
+
+.tamas p{
+    margin-top: 2rem;
+    font-weight: 700;
+    font-family: Vazirmatn;
+    font-size: 1.2rem;
+}
+
+.tamas h2{
+    font-weight: 700;
+    font-family: Vazirmatn;
+    font-size: 1.8;
+}
+
+.driver{
+    display: flex;
+    margin-top: 8rem;
+   /* margin-right: 10rem;*/
+    justify-content: center;
+}
+
+
+#appdriver{
+     height: 15rem;
+     width: 30rem;
+}
+
+.more{
+    display: block;
+    margin-right: 10rem;
+}
+
+.more li{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.more a{
+    display: inline-block;
+    margin-top: 1.4rem;
+}
+
+#sabt{
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    padding: 1rem 1.3rem; 
+    padding-left: 2rem;  
+    border-radius: 20px;
+}
+
+.shart{
+    display: block;
+}
+
+
+#kian{
+    display: block;
+    margin-right: 13rem;
+    margin-bottom: 2rem;
+    color: black;
+
+}
+
+.bizines{
+    display: flex;
+    margin-top: 10rem;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.woman img{
+    height: 20rem;
+    width: 30rem;
+}
+
+.star{
+    display: inline-block;
+    
+}
+
+.star p{
+    margin-top: 2rem;
+}
+
+.off{
+    display: inline-block;
+}
+
+.off a{
+    display: inline;
+    margin-top: 2rem;
+}
+
+.blan{
+    display: inline-block;
+    margin-left: 6em;
+}
+
+#panl{
+    background-color: black;
+    color: white;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    margin-left: 1rem;
+}
+
+#buy{
+    color: black;
+}
+
+.tasmeh{
+    display: flex;
+    height: 10rem;
+    width: 10rem;
+    gap: 4rem;
+    justify-content: center;
+    margin-right: 44rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.tasmeh img{
+    border-radius: 1rem;
+}
+
+h1{
+    margin-right: 5rem;
+}
+
+.carmand{
+    display: flex;
+    margin-right: 20rem;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.many{
+    display: flex;
+    gap: 8rem;
+    margin-right: 20rem;
+}
+
+#many1{margin-left: 20rem;
+}
+
+.end{
+    text-align: center;
+    background: black;
+    height: 3rem;
+}
